@@ -35,7 +35,7 @@ const Calculator = () => {
         let res = result.split('+').reduce((sum, item) => {
             return sum + Number(item);
         }, 0);
-        setResult(res);
+        setResult(String(res));
     }
 
     return (
