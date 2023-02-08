@@ -1,0 +1,52 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.output {
+    width: 100%;
+    text-align: right;
+    background-color: grey;
+}
+
+.result {
+    margin: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.op {
+    background-color: orange;
+    color: white;
+}
+
+/* added media queries */
+@media(max-width:768px) {
+    .outer {
+        width: 75%;
+    }
+}
+
+@media(max-width:480px) {
+    .outer {
+        width: 90%;
+    }
+}
